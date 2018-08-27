@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=table, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    A test table with merged cells
+    <table border=5 width=50% cellpadding=10>
+        
+        <th rowspan=2></th>
+        <th colspan=2>Average</th>
+        <th rowspan=2>Red eyes</th>
+    
+
+        <tr>
+    <td><h5>height</h5></td>
+    <td><h5>weight</h5></td>
+    </tr>
+
+
+    <tr><td>Male</td>
+    <td>1.9</td>
+    <td>0.003</td>
+    <td>40%</td></tr>
+
+  <tr><td>Feamale</td>
+  <td>1.7</td>
+  <td>0.002</td>
+  <td>43%</td></tr>
+
+</table>
+
+<table border=5 width=80%  cellpadding=2 cellspacing=8>
+    <!-- for multiple headings th{heading_$}*4+enter -->
+    <th colspan=4>Purchased Eqipments(June,2006)</th>
+    <!-- For multiple rows tr{row_$}*4 -->
+    <!-- For multiple columns td{column_$}*4 -->
+
+     <tr><td align=center rowspan=2><h4>Item Num#</h4></td>
+     <td align=center rowspan=2><h4>Item Picture</h4></td>
+     <td align=center><h4>Item Discription</h4></td>
+     <td align=center><h4>Price</h4></td></tr>
+
+     <tr><td align=center><h4>Shipping Handling,Installation,etc</h4></td>
+     <td align=center><h4>Expense</h4></td></tr>
+
+    <tr><td rowspan=2>1.</td>
+    <td rowspan=2><img src="../images.jpg" alt="Computer"></td>
+    <td>IBM Clone Computer</td>
+    <td>$400.00</td>
+   </tr>
+
+    <tr>
+    <td>Shipping Handling,Installation,etc</td>
+    <td>$20.00</td></tr>
+
+    <tr><td rowspan=2>2.</td>
+    <td rowspan=2><img src="../images (1).jpg" alt="RAM"></td>
+    <td>1 GB RAM Module For Computer</td>
+    <td>$50.00</td></tr>
+
+    
+    <tr>
+            <td>Shipping Handling,Installation,etc</td>
+            <td>14.00</td></tr>
+
+            <th colspan=4>Purchased Eqipments(June,2006)</th>    
+</table>
+</body>
+</html>
